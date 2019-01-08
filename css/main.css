@@ -1,0 +1,41 @@
+*{
+  text-align: center;
+}
+
+header, footer{
+  height: 20%;
+  background: blue;
+}
+
+.main-content{
+  display: flex;
+  height: 60%;
+}
+
+.left{
+  background: red;
+  margin: 10px 5px 10px 0;
+}
+
+.right{
+  background: green;
+  margin: 10px 0 10px 5px;
+}
+
+main{
+  height: 100vh;
+}
+
+footer h1{
+  margin:0;
+}
+
+section{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer{
+  margin-top: 20px;
+}
